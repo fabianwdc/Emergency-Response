@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/p_c">
+
+
+    <TextView
+        android:id="@+id/emailTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/fui_bgEmail" />
+
+    <TextView
+        android:id="@+id/nameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+        android:layout_below="@+id/emailTv"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/w_c" />
+
+    <TextView
+        android:id="@+id/aadharTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:textColor="@color/w_c"
+        android:layout_below="@id/nameTv"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/passReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:text="Reset Password"
+        android:textColor="@color/w_c"
+        android:layout_below="@id/aadharTv"/>
+
+    <TextView
+        android:id="@+id/deleteAccTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/passReset"
+        android:textSize="20dp"
+        android:text="Delete Account"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/w_c"/>
+</RelativeLayout>

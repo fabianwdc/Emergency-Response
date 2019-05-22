@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/p_c">
+
+
+    <EditText
+        android:id="@+id/useLogText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="121dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/w_c"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/useLogText"
+        android:layout_alignStart="@+id/useLogText"
+        android:layout_below="@+id/useLogText"
+        android:layout_marginTop="43dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:password="true"
+        android:textColorHint="@color/w_c"/>
+
+    <Button
+        android:id="@+id/logBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="login"
+        android:layout_below="@+id/editText2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logBut"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Forgot Password?"
+        android:textColorLink="@color/w_c"
+        android:textColor="@color/w_c"/>
+
+    <Button
+        android:id="@+id/signUpBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/textView2"
+        android:layout_toStartOf="@+id/textView2"
+        android:text="Sign ip" />
+</RelativeLayout>

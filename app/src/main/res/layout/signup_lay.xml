@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/p_c">
+
+
+    <EditText
+        android:id="@+id/usueditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/w_c"/>
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/usueditText"
+        android:layout_alignRight="@+id/usueditText"
+        android:layout_below="@+id/usueditText"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/w_c"/>
+
+    <EditText
+        android:id="@+id/aaDaarEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/emailEditText"
+        android:layout_alignStart="@+id/emailEditText"
+        android:layout_below="@+id/emailEditText"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Aadhar Number"
+        android:inputType="number"
+        android:textColorHint="@color/w_c"/>
+
+    <EditText
+        android:id="@+id/pusedit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/aaDaarEdit"
+        android:layout_alignStart="@+id/aaDaarEdit"
+        android:layout_below="@+id/aaDaarEdit"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/w_c"/>
+
+    <EditText
+        android:id="@+id/pusedit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/pusedit1"
+        android:layout_alignRight="@+id/pusedit1"
+        android:layout_below="@+id/pusedit1"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/w_c"/>
+
+    <Button
+        android:id="@+id/subutt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pusedit2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="sign up" />
+
+    <Button
+        android:id="@+id/logusbut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_toLeftOf="@+id/subutt"
+        android:layout_toStartOf="@+id/subutt"
+        android:text="login" />
+</RelativeLayout>
